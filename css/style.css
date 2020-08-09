@@ -338,8 +338,8 @@
   }
 
   form {
+    width: 100%
     min-width: 50%;
-    left: 25%;
     position: relative;
     justify-content: center;
   }
