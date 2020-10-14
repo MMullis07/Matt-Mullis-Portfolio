@@ -265,6 +265,26 @@
     min-height: 276px;
     min-width: 200px;
   }
+  .card8 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #8f8f8f;
+    border-radius: 0px 0px 0px 0px;
+    min-height: 276px;
+    min-width: 200px;
+  }
+  .card9 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #8f8f8f;
+    border-radius: 0px 0px 0px 0px;
+    min-height: 276px;
+    min-width: 200px;
+  }
   .cardfont {
     font-size: 10px;
     margin: 5px;
@@ -324,6 +344,19 @@
     border-color:   #553C7B;
     background-color: #36205b;
   }
+  .buttonReact {
+    background-color: #60DAFB;
+    border: solid 3px;
+    border-color:  #1F232A;
+    border-radius: 2px;
+    color: white;
+    transition-duration: 0.3s;
+  }
+  .buttonReact:hover {
+    border-color:   white;
+    background-color: #1F232A;
+    color: #60DAFB;
+  }
   h5 {
     font-family: "Montserrat", sans-serif;
     margin: 10px;
@@ -345,7 +378,7 @@
       width: 100% !important;
       flex-direction: column !important;
     }
-    .card, .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    .card, .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
       border-radius: 25px !important;
       min-height: 335px !important;
       max-height: 335px !important;
@@ -393,12 +426,12 @@
       padding-bottom: 1px;
       padding-top: 1px;
     }
-    .card, .card1, .card4, .card5 {
+    .card, .card1, .card4, .card5, .card9 {
       border-radius: 25px 0px 0px 25px;
       min-height: 275px;
       max-height: 275px;
     }
-    .card2, .card3, .card6, .card7 {
+    .card2, .card3, .card6, .card7, .card8 {
       border-radius: 0px 25px 25px 0px;
       min-height: 275px;
       max-height: 275px;
