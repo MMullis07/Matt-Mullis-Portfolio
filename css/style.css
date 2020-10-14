@@ -265,6 +265,26 @@
     min-height: 276px;
     min-width: 200px;
   }
+  .card8 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #8f8f8f;
+    border-radius: 0px 0px 0px 0px;
+    min-height: 276px;
+    min-width: 200px;
+  }
+  .card9 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #8f8f8f;
+    border-radius: 0px 0px 0px 0px;
+    min-height: 276px;
+    min-width: 200px;
+  }
   .cardfont {
     font-size: 10px;
     margin: 5px;
@@ -324,6 +344,19 @@
     border-color:   #553C7B;
     background-color: #36205b;
   }
+  .buttonReact {
+    background-color: #60DAFB;
+    border: solid 3px;
+    border-color:  #1F232A;
+    border-radius: 2px;
+    color: white;
+    transition-duration: 0.3s;
+  }
+  .buttonReact:hover {
+    border-color:   white;
+    background-color: #1F232A;
+    color: #60DAFB;
+  }
   h5 {
     font-family: "Montserrat", sans-serif;
     margin: 10px;
@@ -345,7 +378,7 @@
       width: 100% !important;
       flex-direction: column !important;
     }
-    .card, .card1, .card2, .card3, .card4, .card5, .card6, .card7 {
+    .card, .card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9 {
       border-radius: 25px !important;
       min-height: 335px !important;
       max-height: 335px !important;
@@ -393,12 +426,12 @@
       padding-bottom: 1px;
       padding-top: 1px;
     }
-    .card, .card1, .card4, .card5 {
+    .card, .card1, .card4, .card5, .card9 {
       border-radius: 25px 0px 0px 25px;
       min-height: 275px;
       max-height: 275px;
     }
-    .card2, .card3, .card6, .card7 {
+    .card2, .card3, .card6, .card7, .card8 {
       border-radius: 0px 25px 25px 0px;
       min-height: 275px;
       max-height: 275px;
@@ -437,9 +470,9 @@
 }
 
 .skills {
-      text-align: center;
-      line-height: 1;
-      flex: 25%;
+    text-align: center;
+    line-height: 1;
+    flex: 25%;
   }
 .skillsColumn{
     flex: 25%;
@@ -490,14 +523,14 @@
     font-family: "Montserrat", sans-serif;
   }
 .flex-container {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
 }
 .flex-container2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 .flex-container3{
   display: flex;
@@ -506,28 +539,28 @@
 }
 .imageswitch {
   position: relative;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    max-width: 300px;
-    min-width: 200px;
-    width: 100%;
-    height: auto;
-    padding-right: 30px;
-    border-radius: 25px 25px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  max-width: 300px;
+  min-width: 200px;
+  width: 100%;
+  height: auto;
+  padding-right: 30px;
+  border-radius: 25px 25px;
 }
 
 .me {
-    position: relative;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    max-width: 300px;
-    min-width: 200px;
-    width: 100%;
-    height: auto;
-    padding-right: 30px;
-    border-radius: 25px 25px;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  max-width: 300px;
+  min-width: 200px;
+  width: 100%;
+  height: auto;
+  padding-right: 30px;
+  border-radius: 25px 25px;
     /* z-index: 99; */
 }
 .label-container{
@@ -584,7 +617,7 @@ a.float + div.label-container {
 }
 
 a.float:hover + div.label-container{
-  border-color:   #553C7B;
+  border-color:#553C7B;
   /* background: rgba(143, 143, 143, 0.5); */
   opacity: 1;
 }
@@ -609,7 +642,7 @@ input[type=text], input[type=email], textarea {
   resize: vertical;
   font-family: "Montserrat", sans-serif;
   padding: 12px;
-  background: #090a03;
+  background:#090a03;
 }
   input[type=text]:focus, input[type=email]:focus, textarea:focus {
     border: 1px solid #e8f380;
@@ -658,7 +691,7 @@ input[type=text], input[type=email], textarea {
     justify-content: center;
   }
   #name, #subject, #body {
-    color: #8f8f8f;
+    color:#8f8f8f;
   }
 
   .hero {
